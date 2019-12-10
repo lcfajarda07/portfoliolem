@@ -4,7 +4,7 @@ import './App.css';
 
 import "react-bulma-components/dist/react-bulma-components.min.css";
 import { Hero ,Container ,Heading} from "react-bulma-components";
-
+import { Link } from "react-router-dom";
 //components
 import Contact from './Components/Contact';
 import About from './Components/About';
@@ -20,7 +20,7 @@ function App() {
 //   const [whichComponentToShow, setComponentToShow]=useState("landing");
 //   const landingClickHandler = () => {
 //     setComponentToShow("landing");
-//   };
+//   };S
 //    const aboutClickHandler = () => {
 //     setComponentToShow("about");
 //   };
